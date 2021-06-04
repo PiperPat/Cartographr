@@ -9,7 +9,6 @@ output.innerHTML = slider.value; // Display the default slider value
 slider.oninput = function() {
     output.innerHTML = this.value;
     auckland_val = this.value;
-    google.charts.setOnLoadCallback(drawRegionsMap);
     drawRegionsMap()
 
 }

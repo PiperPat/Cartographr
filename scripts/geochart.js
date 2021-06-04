@@ -1,13 +1,15 @@
-var auckland_val = 300
+var auckland_val;
 
+function startGeochart() {
+    google.charts.load('current', {
+        'packages':['geochart'],
+        // Note: you will need to get a mapsApiKey for your project.
+        // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+        'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
+        });
+    google.charts.setOnLoadCallback(drawRegionsMap);
+}
 
-google.charts.load('current', {
-'packages':['geochart'],
-// Note: you will need to get a mapsApiKey for your project.
-// See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
-'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
-});
-google.charts.setOnLoadCallback(drawRegionsMap);
 
 var nz_data = [
     ['Country', 'Covid cases'],
@@ -23,10 +25,10 @@ var nz_data = [
     ['NZ-OTA', 50],
     ['NZ-STL', 25],
     ['NZ-TAS', 50],
-    ['NZ-TKI', 0],
+    ['NZ-TKI', 250],
     ['NZ-WKO', 50],
     ['NZ-WGN', 50],
-    ['NZ-WTC', 275],
+    ['NZ-WTC', 5],
     ['NZ-CIT', 50],
 ];
 
