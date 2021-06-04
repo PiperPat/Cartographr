@@ -1,52 +1,13 @@
 <html>
   <head>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript">
-      var auckland_val = 300
-      google.charts.load('current', {
-        'packages':['geochart'],
-        // Note: you will need to get a mapsApiKey for your project.
-        // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
-        'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
-      });
-      google.charts.setOnLoadCallback(drawRegionsMap);
-
-      function drawRegionsMap() {
-        var data = google.visualization.arrayToDataTable([
-          ['Country', 'Covid cases'],
-          ['NZ-AUK', auckland_val],
-          ['NZ-BOP', 50],
-          ['NZ-CAN', 300],
-          ['NZ-GIS', 200],
-          ['NZ-HKB', 100],
-          ['NZ-MBH', 50],
-          ['NZ-MWT', 120],
-          ['NZ-NSN', 50],
-          ['NZ-NTL', 100],
-          ['NZ-OTA', 50],
-          ['NZ-STL', 25],
-          ['NZ-TAS', 50],
-          ['NZ-TKI', 0],
-          ['NZ-WKO', 50],
-          ['NZ-WGN', 50],
-          ['NZ-WTC', 275],
-          ['NZ-CIT', 50],
-        ]);
-
-        var options = {
-          region: 'NZ',
-          resolution: 'provinces'
-        };
-
-        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
-
-        chart.draw(data, options);
-      }
+    <script type="text/javascript" src="scripts/geochart.js">
 
     </script>
   </head>
   <body>
     <div id="regions_div" style="width: 900px; height: 500px;"></div>
+
     <div class="slidecontainer">
       <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
     </div>
@@ -57,11 +18,16 @@
       var slider = document.getElementById("myRange");
       var output = document.getElementById("slider-results");
       output.innerHTML = slider.value; // Display the default slider value
+      
 
       // Update the current slider value (each time you drag the slider handle)
       slider.oninput = function() {
         output.innerHTML = this.value;
+        auckland_val = this.value;
+        
       }
+
+      
       
     </script>
   </body>
