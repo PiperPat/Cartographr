@@ -1,4 +1,6 @@
 var auckland_val = 300
+
+
 google.charts.load('current', {
 'packages':['geochart'],
 // Note: you will need to get a mapsApiKey for your project.
@@ -7,8 +9,7 @@ google.charts.load('current', {
 });
 google.charts.setOnLoadCallback(drawRegionsMap);
 
-function drawRegionsMap() {
-var data = google.visualization.arrayToDataTable([
+var nz_data = [
     ['Country', 'Covid cases'],
     ['NZ-AUK', auckland_val],
     ['NZ-BOP', 50],
@@ -27,14 +28,20 @@ var data = google.visualization.arrayToDataTable([
     ['NZ-WGN', 50],
     ['NZ-WTC', 275],
     ['NZ-CIT', 50],
-]);
+];
 
-var options = {
-    region: 'NZ',
-    resolution: 'provinces'
-};
 
-var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+function drawRegionsMap() {
+    var data = google.visualization.arrayToDataTable(nz_data);
 
-chart.draw(data, options);
+    var options = {
+        region: 'NZ',
+        resolution: 'provinces'
+    };
+
+    var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+    chart.draw(data, options);
 }
+
+
