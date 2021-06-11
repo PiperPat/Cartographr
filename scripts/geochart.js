@@ -1,3 +1,7 @@
+// apparently geocharts won't let you have dynamic values 
+// also, the highest level of resolution you can work at is regions, which isn't good enough
+// to work around this, I'm going to try SVGs -- see svg-test.html for current development strategy
+
 var auckland_val;
 
 function startGeochart() {
