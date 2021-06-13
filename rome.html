@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src='rome/500BC.png'>
+    <div class="slidecontainer">
+        <input type="range" min="-500" max="300" value="150" class="slider" id="myRange">
+      </div>
+      <span id ='slider-results'>50 </span>
+</body>
+<script>
+    var slider = document.getElementById("myRange");
+
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("slider-results");
+    output.innerHTML = slider.value; // Display the default slider value
+
+
+    // Update the current slider value (each time you drag the slider handle)
+    slider.oninput = function() {
+        output.innerHTML = this.value;
+    }
+
+</script>
+</html>
