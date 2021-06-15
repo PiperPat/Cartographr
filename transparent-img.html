@@ -12,5 +12,24 @@
   <circle id='rome' cx="310" cy="500" r="10" style="fill:rgb(161, 15, 5)"/>
   <image href="rome/inverted-europe.png" height="800" width="800"/>
 </svg>
+<div class="slidecontainer">
+    <input type="range" min="5" max="300" value="5" class="slider" id="myRange">
+  </div>
+  <span id ='slider-results'>50 </span>
+  <script>
+    var slider = document.getElementById("myRange");
+
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("slider-results");
+    output.innerHTML = slider.value; // Display the default slider value
+
+
+    // Update the current slider value (each time you drag the slider handle)
+    slider.oninput = function() {
+        output.innerHTML = this.value;
+        document.getElementById('rome').setAttribute("r", this.value);
+    }
+
+</script>
 </body>
 </html>
