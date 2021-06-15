@@ -8,9 +8,9 @@
 </head>
 
 <body>
-    <img src='rome/500BC.png'>
+    <img id='main-img' src='rome/500BC.png'>
     <div class="slidecontainer">
-        <input type="range" min="-500" max="300" value="150" class="slider" id="myRange">
+        <input type="range" min="-350" max="300" value="-350" class="slider" id="myRange">
       </div>
       <span id ='slider-results'>50 </span>
 </body>
@@ -25,6 +25,28 @@
     // Update the current slider value (each time you drag the slider handle)
     slider.oninput = function() {
         output.innerHTML = this.value;
+        if (this.value < -300) {
+            document.getElementById('main-img').src = 'rome/500BC.png';
+        } else if (this.value < -280) {
+            document.getElementById('main-img').src = 'rome/300BC.png';
+        } else if (this.value < -220) {
+            document.getElementById('main-img').src = 'rome/280BC.png';
+        } else if (this.value < -200) {
+            document.getElementById('main-img').src = 'rome/220BC.png';
+        } else if (this.value < -150) {
+            document.getElementById('main-img').src = 'rome/200BC.png';
+        } else if (this.value < -100) {
+            document.getElementById('main-img').src = 'rome/150BC.png';
+        } else if (this.value < -50) {
+            document.getElementById('main-img').src = 'rome/100BC.png';
+        } else if (this.value < 1) {
+            document.getElementById('main-img').src = 'rome/50BC.png';
+        } else if (this.value < 60) {
+            document.getElementById('main-img').src = 'rome/1AD.png';
+        }
+         else {
+            document.getElementById('main-img').src = 'rome/117AD.png';            
+        }
     }
 
 </script>
