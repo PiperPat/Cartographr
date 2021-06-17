@@ -1,0 +1,153 @@
+CF	Central African Republic	24-Jan-78
+CG	Congo	24-Jan-78
+CH	Switzerland	24-Jan-78
+CM	Cameroon	24-Jan-78
+DE	Germany	24-Jan-78
+GA	Gabon	24-Jan-78
+GB	United Kingdom7	24-Jan-78
+MG	Madagascar	24-Jan-78
+MW	Malawi	24-Jan-78
+SN	Senegal	24-Jan-78
+TD	Chad	24-Jan-78
+TG	Togo	24-Jan-78
+US	United States of America11, 12	24-Jan-78
+FR	France2, 6	25-Feb-78
+BR	Brazil	9-Apr-78
+LU	Luxembourg	30-Apr-78
+SE	Sweden5	17-May-78
+JP	Japan	1-Oct-78
+DK	Denmark	1-Dec-78
+AT	Austria	23-Apr-79
+MC	Monaco	22-Jun-79
+NL	Netherlands8	10-Jul-79
+RO	Romania2	23-Jul-79
+NO	Norway5	1-Jan-80
+LI	Liechtenstein	19-Mar-80
+AU	Australia	31-Mar-80
+HU	Hungary2	27-Jun-80
+KP	Democratic People’s Republic of Korea	8-Jul-80
+FI	Finland5	1-Oct-80
+BE	Belgium	14-Dec-81
+LK	Sri Lanka	26-Feb-82
+MR	Mauritania	13-Apr-83
+SD	Sudan	16-Apr-84
+BG	Bulgaria	21-May-84
+KR	Republic of Korea	10-Aug-84
+ML	Mali	19-Oct-84
+BB	Barbados	12-Mar-85
+IT	Italy	28-Mar-85
+BJ	Benin	26-Feb-87
+BF	Burkina Faso	21-Mar-89
+ES	Spain	16-Nov-89
+CA	Canada	2-Jan-90
+GR	Greece	9-Oct-90
+PL	Poland5	25-Dec-90
+CI	Côte d’Ivoire	30-Apr-91
+GN	Guinea	27-May-91
+MN	Mongolia	27-May-91
+AM	Armenia2	25-Dec-91
+BY	Belarus2	25-Dec-91
+GE	Georgia2	25-Dec-91
+KG	Kyrgyzstan2	25-Dec-91
+KZ	Kazakhstan2	25-Dec-91
+MD	Republic of Moldova2	25-Dec-91
+TJ	Tajikistan2	25-Dec-91
+TM	Turkmenistan2	25-Dec-91
+UA	Ukraine2	25-Dec-91
+UZ	Uzbekistan2	25-Dec-91
+IE	Ireland	1-Aug-92
+PT	Portugal	24-Nov-92
+NZ	New Zealand	1-Dec-92
+CZ	Czechia	1-Jan-93
+SK	Slovakia	1-Jan-93
+VN	Viet Nam  	10-Mar-93
+NE	Niger	21-Mar-93
+LV	Latvia	7-Sep-93
+CN	China3, 4	1-Jan-94
+SI	Slovenia	1-Mar-94
+TT	Trinidad and Tobago	10-Mar-94
+KE	Kenya	8-Jun-94
+LT	Lithuania	5-Jul-94
+EE	Estonia	24-Aug-94
+LR	Liberia	27-Aug-94
+SZ	Eswatini	20-Sep-94
+MX	Mexico	1-Jan-95
+UG	Uganda	9-Feb-95
+SG	Singapore	23-Feb-95
+IS	Iceland	23-Mar-95
+MK	North Macedonia	10-Aug-95
+AL	Albania	4-Oct-95
+LS	Lesotho	21-Oct-95
+AZ	Azerbaijan	25-Dec-95
+TR	Turkey	1-Jan-96
+IL	Israel	1-Jun-96
+CU	Cuba2	16-Jul-96
+LC	Saint Lucia2	30-Aug-96
+BA	Bosnia and Herzegovina	7-Sep-96
+RS	Serbia9	1-Feb-97
+GH	Ghana	26-Feb-97
+ZW	Zimbabwe	11-Jun-97
+SL	Sierra Leone	17-Jun-97
+ID	Indonesia2	5-Sep-97
+GM	Gambia	9-Dec-97
+GW	Guinea-Bissau	12-Dec-97
+CY	Cyprus	1-Apr-98
+HR	Croatia	1-Jul-98
+GD	Grenada	22-Sep-98
+IN	India2	7-Dec-98
+AE	United Arab Emirates	10-Mar-99
+ZA	South Africa2	16-Mar-99
+CR	Costa Rica	3-Aug-99
+DM	Dominica	7-Aug-99
+TZ	United Republic of Tanzania	14-Sep-99
+MA	Morocco	8-Oct-99
+DZ	Algeria2	8-Mar-00
+AG	Antigua and Barbuda	17-Mar-00
+MZ	Mozambique2	18-May-00
+BZ	Belize	17-Jun-00
+CO	Colombia	28-Feb-01
+EC	Ecuador	7-May-01
+GQ	Equatorial Guinea	17-Jul-01
+PH	Philippines	17-Aug-01
+OM	Oman2	26-Oct-01
+ZM	Zambia	15-Nov-01
+TN	Tunisia2	10-Dec-01
+SC	Seychelles	7-Nov-02
+NI	Nicaragua	6-Mar-03
+PG	Papua New Guinea	14-Jun-03
+SY	Syrian Arab Republic	26-Jun-03
+EG	Egypt	6-Sep-03
+BW	Botswana	30-Oct-03
+NA	Namibia	1-Jan-04
+SM	San Marino	14-Dec-04
+KM	Comoros	3-Apr-05
+NG	Nigeria	8-May-05
+LY	Libya	15-Sep-05
+KN	Saint Kitts and Nevis	27-Oct-05
+ME	Montenegro	3-Jun-06
+LA	Lao People’s Democratic Republic2	14-Jun-06
+HN	Honduras	20-Jun-06
+MY	Malaysia2	16-Aug-06
+SV	El Salvador	17-Aug-06
+GT	Guatemala	14-Oct-06
+MT	Malta2	1-Mar-07
+BH	Bahrain2	18-Mar-07
+DO	Dominican Republic	28-May-07
+AO	Angola	27-Dec-07
+ST	Sao Tome and Principe	3-Jul-08
+CL	Chile2	2-Jun-09
+PE	Peru	6-Jun-09
+TH	Thailand2	24-Dec-09
+QA	Qatar 2 	3-Aug-11
+RW	Rwanda	31-Aug-11
+BN	Brunei Darussalam	24-Jul-12
+SA	Saudi Arabia	3-Aug-13
+IR	Iran (Islamic Republic of)	4-Oct-13
+KW	Kuwait	9-Sep-16
+DJ	Djibouti	23-Sep-16
+KH	Cambodia	8-Dec-16
+JO	Jordan	9-Jun-17
+WS	Samoa2	2-Jan-20
+VC	Saint Vincent and the Grenadines2	 6 August 2002
+RU	Russian Federation2	29 March 197810
+PA	Panama	7 September 2012
