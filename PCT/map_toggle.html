@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script src='1978.js'></script>
-    <script src='1979.js'></script>
-    <script src='toggle.js'></script>
+    <script src='scripts/year_lists.js'></script>
+    <script src='scripts/toggle.js'></script>
 </head>
 <body>
     <h1 id='year-indication'>1978</h1>
     <div id="pct-map" style="width: 900px; height: 500px;"></div>
-    <button onclick='changeYear()'>toggle year</button>
+    <button onclick='changeYear(false)'>prev year</button>
+    <button onclick='changeYear(true)'>next year</button>
 </body>
 </html>
