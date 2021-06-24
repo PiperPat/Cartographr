@@ -152,6 +152,18 @@ function changeYear(next_year) {
     });
     
     google.charts.setOnLoadCallback(drawRegionsMap);
+
+    var dom_id = 'pct-map'
+
+    if (currentYear % 2 == 0) {
+        dom_id = 'pct-map';
+        document.getElementById('pct-map-2').classList.add('inwisible');
+        document.getElementById('pct-map-2').classList.remove('wisible');
+    } else {
+        dom_id = 'pct-map-2';
+        document.getElementById(dom_id).classList.add('wisible');
+        document.getElementById(dom_id).classList.remove('inwisible');
+    }
     
     function drawRegionsMap() {
         var data = google.visualization.arrayToDataTable(current_list);
@@ -160,7 +172,7 @@ function changeYear(next_year) {
             legend: 'none'
         };
 
-        var chart = new google.visualization.GeoChart(document.getElementById('pct-map'));
+        var chart = new google.visualization.GeoChart(document.getElementById(dom_id));
 
         chart.draw(data, options);
     }
