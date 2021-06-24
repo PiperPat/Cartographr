@@ -157,12 +157,8 @@ function changeYear(next_year) {
 
     if (currentYear % 2 == 0) {
         dom_id = 'pct-map';
-        document.getElementById('pct-map-2').classList.add('inwisible');
-        document.getElementById('pct-map-2').classList.remove('wisible');
     } else {
         dom_id = 'pct-map-2';
-        document.getElementById(dom_id).classList.add('wisible');
-        document.getElementById(dom_id).classList.remove('inwisible');
     }
     
     function drawRegionsMap() {
@@ -175,6 +171,18 @@ function changeYear(next_year) {
         var chart = new google.visualization.GeoChart(document.getElementById(dom_id));
 
         chart.draw(data, options);
+    }
+
+    function makeInwisible() {
+        document.getElementById('pct-map-2').classList.add('inwisible');
+        document.getElementById('pct-map-2').classList.remove('wisible');
+    }
+
+    if (currentYear % 2 == 0) {
+        setTimeout(makeInwisible, 100)
+    } else {
+        document.getElementById(dom_id).classList.add('wisible');
+        document.getElementById(dom_id).classList.remove('inwisible');
     }
 
 }
