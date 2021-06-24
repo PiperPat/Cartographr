@@ -1,13 +1,25 @@
-let currentYear = 1977;
+let currentYear = 1978;
 
 let current_list = list_1979;
 
+function addYear() {
+    currentYear++;
+    changeYear(currentYear);
+}
+function remYear() {
+    currentYear = currentYear -1;
+    changeYear(currentYear);
+}
 
-function changeYear(next_year) {
-    if (next_year) currentYear++;
-    else currentYear = currentYear -1;
+
+
+function changeYear(currentYear) {
+    console.log(currentYear);
+
+
     if (currentYear < 1978) currentYear = 1978;
     if (currentYear > 2020) currentYear = 2020;
+    
     document.getElementById('year-indication').innerText = currentYear;
 
     switch (currentYear) {
