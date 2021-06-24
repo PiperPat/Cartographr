@@ -1,4 +1,4 @@
-let currentYear = 1978;
+let currentYear = 1977;
 
 let current_list = list_1979;
 
