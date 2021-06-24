@@ -17,6 +17,61 @@ function changeYear(next_year) {
         case 1979:
             current_list = list_1979;
             break;
+        case 1980:
+            current_list = list_1980;
+            break;
+        case 1981:
+            current_list = list_1981;
+            break;
+        case 1982:
+            current_list = list_1982;
+            break;
+        case 1983:
+            current_list = list_1983;
+            break;
+        case 1984:
+            current_list = list_1984;
+            break;
+        case 1985:
+            current_list = list_1985;
+            break;
+        case 1986:
+            current_list = list_1985;
+            break;
+        case 1987:
+            current_list = list_1987;
+            break;
+        case 1988:
+            current_list = list_1987;
+            break;
+        case 1989:
+            current_list = list_1989;
+            break;
+        case 1990:
+            current_list = list_1990;
+            break;
+        case 1991:
+            current_list = list_1991;
+            break;
+        case 1992:
+            current_list = list_1992;
+            break;
+        case 1993:
+            current_list = list_1993;
+            break;
+        case 1994:
+            current_list = list_1994;
+            break;
+        case 1995:
+            current_list = list_1995;
+            break;
+        case 1996:
+            current_list = list_1996;
+            break;
+        // case 1990:
+        //     current_list = list_1990;
+        //     break;
+        
         default:
             current_list = list_1980;
             break;
