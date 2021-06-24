@@ -95,8 +95,25 @@ function changeYear(next_year) {
         case 2005:
             current_list = list_2005;
             break;
-        
-        
+        case 2006:
+            current_list = list_2006;
+            break;
+        case 2007:
+            current_list = list_2007;
+            break;
+        case 2008:
+            current_list = list_2008;
+            break;
+        case 2009:
+            current_list = list_2009;
+            break;
+        case 2010:
+            current_list = list_2009;
+            break;
+        case 2011:
+            current_list = list_2011;
+            break;
+                
         default:
             current_list = list_1980;
             break;
