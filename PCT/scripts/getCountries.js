@@ -1,19 +1,22 @@
 function getCountries(up_to_year, dispPCT) {
-    var output = [];
+    var geochart_data = [];
+    var all_data = [];
     if (dispPCT) {
-        output.push(['Country', 'PCT']);
+        geochart_data.push(['Country', 'PCT']);
         countires.forEach(cntry => {
             if (cntry.year <= up_to_year) {
-                output.push([cntry.code, cntry.pct]);
+                geochart_data.push([cntry.code, cntry.pct]);
+                all_data.push(cntry);
             }
         });
     } else {
-        output.push(['Country', 'Non-PCT']);
+        geochart_data.push(['Country', 'Non-PCT']);
         countires.forEach(cntry => {
-            if ((cntry.year >= up_to_year) || cntry.pct == 0) {
-                output.push([cntry.code, cntry.pct]);
+            if ((cntry.year > up_to_year) || cntry.pct == 0) {
+                geochart_data.push([cntry.code, cntry.pct]);
+                all_data.push(cntry);
             }
         });
     }
-    return output;
+    return [geochart_data, all_data];
 }
