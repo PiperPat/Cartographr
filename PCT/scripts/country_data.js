@@ -1196,7 +1196,7 @@ const Samoa = {
     name: "Samoa",
     joined: "2-Jan-20" ,
     pct: 1,
-    year: 1920
+    year: 2020
 };
 
 const SVG = {
@@ -1223,13 +1223,29 @@ const Panama = {
     year: 2012
 };
 
+const greenland = {
+    code: "GL",
+    name: "Greenland",
+    joined: "1-Dec-78",
+    pct: 1,
+    year: 1978
+}
+
+const svalbad = {
+    code: "SJ",
+    name: "Svalbard and Jan Mayen",
+    joined: "1-Jan-80",
+    pct: 1,
+    year: 1980
+}
+
 // non-pct
 
 const Afghanistan = {
     code: "AF",
     name: 'Afghanistan',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1237,7 +1253,7 @@ const Andorra = {
     code: "AD",
     name: 'Andorra',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1245,7 +1261,7 @@ const Antarctica = {
     code: "AQ",
     name: 'Antarctica',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1253,7 +1269,7 @@ const Argentina = {
     code: "AR",
     name: 'Argentina',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1261,7 +1277,7 @@ const Bahamas = {
     code: "BS",
     name: 'Bahamas',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1269,7 +1285,7 @@ const Bangladesh = {
     code: "BD",
     name: 'Bangladesh',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1277,7 +1293,7 @@ const Bhutan = {
     code: "BT",
     name: 'Bhutan',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1285,7 +1301,7 @@ const Bolivia = {
     code: "BO",
     name: 'Bolivia (Plurinational State of)',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1293,7 +1309,7 @@ const Burundi = {
     code: "BI",
     name: 'Burundi',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1301,15 +1317,15 @@ const Cabo = {
     code: "CV",
     name: 'Cabo Verde',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
-const Congo = {
+const DR_Congo = {
     code: "CD",
     name: 'Congo, Democratic Republic of the',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1317,7 +1333,7 @@ const Eritrea = {
     code: "ER",
     name: 'Eritrea',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1325,7 +1341,7 @@ const Ethiopia = {
     code: "ET",
     name: 'Ethiopia',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1333,7 +1349,7 @@ const Fiji = {
     code: "FJ",
     name: 'Fiji',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1341,7 +1357,7 @@ const Guyana = {
     code: "GY",
     name: 'Guyana',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1349,7 +1365,7 @@ const Haiti = {
     code: "HT",
     name: 'Haiti',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1357,7 +1373,7 @@ const Vatican = {
     code: "VA",
     name: 'Holy See',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1365,7 +1381,7 @@ const Hong_kong = {
     code: "HK",
     name: 'Hong Kong',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1373,7 +1389,7 @@ const Iraq = {
     code: "IQ",
     name: 'Iraq',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1381,7 +1397,7 @@ const Jamaica = {
     code: "JM",
     name: 'Jamaica',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1389,7 +1405,7 @@ const Kiribati = {
     code: "KI",
     name: 'Kiribati',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1397,7 +1413,7 @@ const Lebanon = {
     code: "LB",
     name: 'Lebanon',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1405,7 +1421,7 @@ const Maldives = {
     code: "MV",
     name: 'Maldives',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1413,7 +1429,7 @@ const Marshall = {
     code: "MH",
     name: 'Marshall Islands',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1421,7 +1437,7 @@ const Mauritius = {
     code: "MU",
     name: 'Mauritius',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1429,15 +1445,7 @@ const Micronesia = {
     code: "FM",
     name: 'Micronesia (Federated States of)',
     joined: 'no',
-    pct: 0,
-    year: 9999
-};
-
-const Moldova = {
-    code: "MD",
-    name: 'Moldova, Republic of',
-    joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1445,7 +1453,7 @@ const Myanmar = {
     code: "MM",
     name: 'Myanmar',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1453,7 +1461,7 @@ const Nauru = {
     code: "NR",
     name: 'Nauru',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1461,7 +1469,7 @@ const Nepal = {
     code: "NP",
     name: 'Nepal',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1469,7 +1477,7 @@ const Pakistan = {
     code: "PK",
     name: 'Pakistan',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1477,7 +1485,7 @@ const Palau = {
     code: "PW",
     name: 'Palau',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1485,7 +1493,7 @@ const Palestine = {
     code: "PS",
     name: 'Palestine, State of',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1493,15 +1501,7 @@ const Paraguay = {
     code: "PY",
     name: 'Paraguay',
     joined: 'no',
-    pct: 0,
-    year: 9999
-};
-
-const Qatar = {
-    code: "QA",
-    name: 'Qatar',
-    joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1509,7 +1509,7 @@ const Solomon = {
     code: "SB",
     name: 'Solomon Islands',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1517,7 +1517,7 @@ const Somalia = {
     code: "SO",
     name: 'Somalia',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1525,7 +1525,7 @@ const South_Sudan = {
     code: "SS",
     name: 'South Sudan',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1533,7 +1533,7 @@ const Suriname = {
     code: "SR",
     name: 'Suriname',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1541,7 +1541,7 @@ const Taiwan = {
     code: "TW",
     name: 'Taiwan',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1549,7 +1549,7 @@ const Timor = {
     code: "TL",
     name: 'Timor-Leste',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1557,7 +1557,7 @@ const Tonga = {
     code: "TO",
     name: 'Tonga',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1565,7 +1565,7 @@ const Uruguay = {
     code: "UY",
     name: 'Uruguay',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1573,7 +1573,7 @@ const Vanuatu = {
     code: "VU",
     name: 'Vanuatu',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1581,7 +1581,7 @@ const Venezuela = {
     code: "VE",
     name: 'Venezuela (Bolivarian Republic of)',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1589,7 +1589,7 @@ const Western_Sahara = {
     code: "EH",
     name: 'Western Sahara',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1597,7 +1597,7 @@ const Yemen = {
     code: "YE",
     name: 'Yemen',
     joined: 'no',
-    pct: 0,
+    pct: 1,
     year: 9999
 };
 
@@ -1767,7 +1767,7 @@ const countires = [
     Bolivia,
     Burundi,
     Cabo,
-    Congo,
+    DR_Congo,
     Eritrea,
     Ethiopia,
     Fiji,
@@ -1783,7 +1783,6 @@ const countires = [
     Marshall,
     Mauritius,
     Micronesia,
-    Moldova,
     Myanmar,
     Nauru,
     Nepal,
@@ -1791,7 +1790,6 @@ const countires = [
     Palau,
     Palestine,
     Paraguay,
-    Qatar,
     Solomon,
     Somalia,
     South_Sudan,
@@ -1803,5 +1801,7 @@ const countires = [
     Vanuatu,
     Venezuela,
     Western_Sahara,
-    Yemen
+    Yemen,
+    greenland,
+    svalbad
 ];

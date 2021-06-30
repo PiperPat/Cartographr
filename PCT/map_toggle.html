@@ -43,10 +43,10 @@
     <script src='scripts/list_2017.js'></script>
     <script src='scripts/list_2020.js'></script>
     <script src='scripts/inv_2020.js'></script>
-    <script src='scripts/toggle.js'></script>
-    <script src='scripts/yearJump.js'></script>
     <script src='scripts/country_data.js'></script>
     <script src='scripts/getCountries.js'></script>
+    <script src='scripts/toggle.js'></script>
+    <script src='scripts/yearJump.js'></script>
     <style>
         #pct-map {
             box-shadow: 0 2px 5px black;
@@ -64,7 +64,7 @@
         }
     </style>
 </head>
-<body onload='changeYear(1978); getCountries(2000);'>
+<body onload='changeYear(1978); getCountries(1978, true);'>
     <input id='year-input' placeholder="jump to year" input='number' min="1978" max="2020" onkeydown="search(this)">
     <button onclick='yearJump()'>jump</button>
     <h1 id='year-indication'>1978</h1>

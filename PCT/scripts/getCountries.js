@@ -1,12 +1,19 @@
-function getCountries(up_to_year) {
+function getCountries(up_to_year, dispPCT) {
     var output = [];
-    var for_python = [];
-    countires.forEach(cntry => {
-        if (cntry.year <= up_to_year) {
-            output.push([cntry.code, cntry.pct]);
-            for_python.push(cntry.code);
-        }
-    });
-    // console.log(output);
-    console.log(for_python);
+    if (dispPCT) {
+        output.push(['Country', 'PCT']);
+        countires.forEach(cntry => {
+            if (cntry.year <= up_to_year) {
+                output.push([cntry.code, cntry.pct]);
+            }
+        });
+    } else {
+        output.push(['Country', 'Non-PCT']);
+        countires.forEach(cntry => {
+            if ((cntry.year >= up_to_year) || cntry.pct == 0) {
+                output.push([cntry.code, cntry.pct]);
+            }
+        });
+    }
+    return output;
 }
