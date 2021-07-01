@@ -5,6 +5,7 @@
     display: block;
     margin: auto;
     max-width: 900px;
+    margin-bottom: 100px;
 }
 #year-indication {
     text-align: center;
@@ -25,8 +26,21 @@
 }
 #pct-control-panel {
     padding: 20px;
-    /* background-color: aqua; */
 }
+#pct-year-nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+}
+#year-jump {
+    margin: auto;
+}
+#pct-toggle-container {
+    width: 100%;
+    margin: auto;
+}
+
+
 #code-col {width: 100px;}
 #name-col {width: 400px;}
 #date-col {width: 200px;}
@@ -42,4 +56,23 @@ tr {
 .good-ol-pipers-red { 
     background-color: rgb(206, 11, 16);
     color: white;
+}
+.btn {
+    font-size: 16px;
+    background-color: rgb(145, 145, 145);
+    color: white;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(179, 179, 179);
+}
+.btn:active {
+    transform: translateY(2px);
+}
+.btn:disabled {
+    background-color: rgb(207, 207, 207);
+    cursor: auto;
 }

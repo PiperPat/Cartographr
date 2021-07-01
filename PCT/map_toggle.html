@@ -22,12 +22,18 @@
         <div id="pct-map" style="width: 900px; height: 500px;"></div>
         <div id="pct-map-2" style="width: 900px; height: 500px;"></div>
         <div id='pct-control-panel'>
-            <button onclick='remYear()'>prev year</button>
-            <input id='year-input' placeholder="jump to year" input='number' min="1978" max="2020" onkeydown="search(this)">
-            <button onclick='yearJump()'>jump</button>
-            <button onclick='addYear()'>next year</button>
-            <input type='checkbox' onchange='pct_toggle()' checked>
-            <label>display countries <span id='pct-toggle-lbl'></span> in PCT</label>
+            <div id='pct-year-nav'>
+                <button id='prv-butt' onclick='remYear()' class='btn'>prev year</button>
+                <div id='year-jump'>
+                    <input id='year-input' placeholder="jump to year" input='number' min="1978" max="2020" onkeydown="search(this)">
+                    <button onclick='yearJump()' class='btn'>jump</button>
+                </div>
+                <button id='nek-butt' onclick='addYear()' class='btn'>next year</button>
+            </div>
+            <div id='pct-toggle-container'>
+                <input type='checkbox' onchange='pct_toggle()' checked>
+                <label>display countries <strong><span id='pct-toggle-lbl'></span></strong> in PCT</label>
+            </div>
         </div>
 
         <table id='pct-dates-table'>

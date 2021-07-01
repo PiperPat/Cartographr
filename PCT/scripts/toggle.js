@@ -19,8 +19,14 @@ var show_pct = true;
 
 function changeYear(currentYear) {
 
-    if (currentYear < 1978) currentYear = 1978;
-    if (currentYear > 2020) currentYear = 2020;
+    if (currentYear <= 1978) {
+        currentYear = 1978;
+        document.getElementById('prv-butt').disabled = true;
+    } else document.getElementById('prv-butt').disabled = false;
+    if (currentYear >= 2020) {
+        currentYear = 2020;
+        document.getElementById('nek-butt').disabled = true;
+    } else document.getElementById('nek-butt').disabled = false;
     
     document.getElementById('year-indication').innerText = currentYear;
 
