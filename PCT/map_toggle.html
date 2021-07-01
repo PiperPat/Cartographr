@@ -14,8 +14,9 @@
     <script src='scripts/getCountries.js'></script>
     <script src='scripts/toggle.js'></script>
     <script src='scripts/yearJump.js'></script>
+    <script src='scripts/animate.js'></script>
 </head>
-<body onload='changeYear(1978); getCountries(1978, true);'>
+<body onload='changeYear(1978)'>
     <div id='pct-map-content'>
         
         <h1 id='year-indication'>1978</h1>
@@ -27,6 +28,7 @@
                 <div id='year-jump'>
                     <input id='year-input' placeholder="jump to year" input='number' min="1978" max="2020" onkeydown="search(this)">
                     <button onclick='yearJump()' class='btn'>jump</button>
+                    <button class='btn' onclick='slideshow()'>animate map</button>
                 </div>
                 <button id='nek-butt' onclick='addYear()' class='btn'>next year</button>
             </div>

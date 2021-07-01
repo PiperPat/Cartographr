@@ -1,10 +1,15 @@
+// main js file for this project
+
 let currentYear = 1978;
+
+var myVar; // this is used for animating -- se animate.js
 
 let current_list = [];
 
 function addYear() {
     currentYear++;
     changeYear(currentYear);
+    if (currentYear == 2020) clearInterval(myVar);
 }
 function remYear() {
     currentYear = currentYear -1;
