@@ -1225,7 +1225,7 @@ const Panama = {
 
 const greenland = {
     code: "GL",
-    name: "Greenland",
+    name: "Greenland (counts as Denmark)",
     joined: "1-Dec-78",
     pct: 1,
     year: 1978
@@ -1233,7 +1233,7 @@ const greenland = {
 
 const svalbad = {
     code: "SJ",
-    name: "Svalbard and Jan Mayen",
+    name: "Svalbard and Jan Mayen (counts as Norway)",
     joined: "1-Jan-80",
     pct: 1,
     year: 1980
@@ -1244,7 +1244,7 @@ const svalbad = {
 const Afghanistan = {
     code: "AF",
     name: 'Afghanistan',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1252,7 +1252,7 @@ const Afghanistan = {
 const Andorra = {
     code: "AD",
     name: 'Andorra',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1260,7 +1260,7 @@ const Andorra = {
 const Antarctica = {
     code: "AQ",
     name: 'Antarctica',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1268,7 +1268,7 @@ const Antarctica = {
 const Argentina = {
     code: "AR",
     name: 'Argentina',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1276,7 +1276,7 @@ const Argentina = {
 const Bahamas = {
     code: "BS",
     name: 'Bahamas',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1284,7 +1284,7 @@ const Bahamas = {
 const Bangladesh = {
     code: "BD",
     name: 'Bangladesh',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1292,7 +1292,7 @@ const Bangladesh = {
 const Bhutan = {
     code: "BT",
     name: 'Bhutan',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1300,7 +1300,7 @@ const Bhutan = {
 const Bolivia = {
     code: "BO",
     name: 'Bolivia (Plurinational State of)',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1308,7 +1308,7 @@ const Bolivia = {
 const Burundi = {
     code: "BI",
     name: 'Burundi',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1316,7 +1316,7 @@ const Burundi = {
 const Cabo = {
     code: "CV",
     name: 'Cabo Verde',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1324,7 +1324,7 @@ const Cabo = {
 const DR_Congo = {
     code: "CD",
     name: 'Congo, Democratic Republic of the',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1332,7 +1332,7 @@ const DR_Congo = {
 const Eritrea = {
     code: "ER",
     name: 'Eritrea',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1340,7 +1340,7 @@ const Eritrea = {
 const Ethiopia = {
     code: "ET",
     name: 'Ethiopia',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1348,7 +1348,7 @@ const Ethiopia = {
 const Fiji = {
     code: "FJ",
     name: 'Fiji',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1356,7 +1356,7 @@ const Fiji = {
 const Guyana = {
     code: "GY",
     name: 'Guyana',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1364,7 +1364,7 @@ const Guyana = {
 const Haiti = {
     code: "HT",
     name: 'Haiti',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1372,7 +1372,7 @@ const Haiti = {
 const Vatican = {
     code: "VA",
     name: 'Holy See',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1380,7 +1380,7 @@ const Vatican = {
 const Hong_kong = {
     code: "HK",
     name: 'Hong Kong',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1388,7 +1388,7 @@ const Hong_kong = {
 const Iraq = {
     code: "IQ",
     name: 'Iraq',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1396,7 +1396,7 @@ const Iraq = {
 const Jamaica = {
     code: "JM",
     name: 'Jamaica',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1404,7 +1404,7 @@ const Jamaica = {
 const Kiribati = {
     code: "KI",
     name: 'Kiribati',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1412,7 +1412,7 @@ const Kiribati = {
 const Lebanon = {
     code: "LB",
     name: 'Lebanon',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1420,7 +1420,7 @@ const Lebanon = {
 const Maldives = {
     code: "MV",
     name: 'Maldives',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1428,7 +1428,7 @@ const Maldives = {
 const Marshall = {
     code: "MH",
     name: 'Marshall Islands',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1436,7 +1436,7 @@ const Marshall = {
 const Mauritius = {
     code: "MU",
     name: 'Mauritius',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1444,7 +1444,7 @@ const Mauritius = {
 const Micronesia = {
     code: "FM",
     name: 'Micronesia (Federated States of)',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1452,7 +1452,7 @@ const Micronesia = {
 const Myanmar = {
     code: "MM",
     name: 'Myanmar',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1460,7 +1460,7 @@ const Myanmar = {
 const Nauru = {
     code: "NR",
     name: 'Nauru',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1468,7 +1468,7 @@ const Nauru = {
 const Nepal = {
     code: "NP",
     name: 'Nepal',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1476,7 +1476,7 @@ const Nepal = {
 const Pakistan = {
     code: "PK",
     name: 'Pakistan',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1484,7 +1484,7 @@ const Pakistan = {
 const Palau = {
     code: "PW",
     name: 'Palau',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1492,7 +1492,7 @@ const Palau = {
 const Palestine = {
     code: "PS",
     name: 'Palestine, State of',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1500,7 +1500,7 @@ const Palestine = {
 const Paraguay = {
     code: "PY",
     name: 'Paraguay',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1508,7 +1508,7 @@ const Paraguay = {
 const Solomon = {
     code: "SB",
     name: 'Solomon Islands',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1516,7 +1516,7 @@ const Solomon = {
 const Somalia = {
     code: "SO",
     name: 'Somalia',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1524,7 +1524,7 @@ const Somalia = {
 const South_Sudan = {
     code: "SS",
     name: 'South Sudan',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1532,7 +1532,7 @@ const South_Sudan = {
 const Suriname = {
     code: "SR",
     name: 'Suriname',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1540,7 +1540,7 @@ const Suriname = {
 const Taiwan = {
     code: "TW",
     name: 'Taiwan',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1548,7 +1548,7 @@ const Taiwan = {
 const Timor = {
     code: "TL",
     name: 'Timor-Leste',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1556,7 +1556,7 @@ const Timor = {
 const Tonga = {
     code: "TO",
     name: 'Tonga',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1564,7 +1564,7 @@ const Tonga = {
 const Uruguay = {
     code: "UY",
     name: 'Uruguay',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1572,7 +1572,7 @@ const Uruguay = {
 const Vanuatu = {
     code: "VU",
     name: 'Vanuatu',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1580,7 +1580,7 @@ const Vanuatu = {
 const Venezuela = {
     code: "VE",
     name: 'Venezuela (Bolivarian Republic of)',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1588,7 +1588,7 @@ const Venezuela = {
 const Western_Sahara = {
     code: "EH",
     name: 'Western Sahara',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };
@@ -1596,7 +1596,7 @@ const Western_Sahara = {
 const Yemen = {
     code: "YE",
     name: 'Yemen',
-    joined: 'no',
+    joined: 'has not yet signed',
     pct: 1,
     year: 9999
 };

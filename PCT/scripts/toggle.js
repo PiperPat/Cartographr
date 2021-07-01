@@ -73,14 +73,23 @@ function changeYear(currentYear) {
 
     // document.getElementById('here-be-data')
 
-    var lcHtml = "";
-    const sp = ' &emsp;';
+
+    const table = document.getElementById("here-be-data");
+
+    table.innerHTML = '';
 
     comp_list.forEach(result => {
-        lcHtml = lcHtml + result.code + sp + result.name + sp + result.joined + '<br>';
-    });
+        // actual code data
+        let row = table.insertRow();
+        let code = row.insertCell(0);
+        code.innerHTML = result.code;
 
-    document.getElementById('here-be-data').innerHTML = lcHtml;
+        let name = row.insertCell(1);
+        name.innerHTML = result.name;
+
+        let date = row.insertCell(2);
+        date.innerHTML = result.joined;
+    });
 
 }
 
