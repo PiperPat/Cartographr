@@ -6,47 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dynamic PCT Map</title>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
     <script src='scripts/country_data.js'></script>
     <script src='scripts/getCountries.js'></script>
     <script src='scripts/toggle.js'></script>
     <script src='scripts/yearJump.js'></script>
-    <style>
-        #pct-map {
-            box-shadow: 0 2px 5px black;
-        } 
-        #pct-map-2 {
-            z-index: 1;
-            position: absolute;
-            top: 129px;
-        }
-        .inwisible {
-            display: none;
-        }
-        .wisible {
-            display: block;
-        }
-    </style>
 </head>
 <body onload='changeYear(1978); getCountries(1978, true);'>
-    <input id='year-input' placeholder="jump to year" input='number' min="1978" max="2020" onkeydown="search(this)">
-    <button onclick='yearJump()'>jump</button>
-    <h1 id='year-indication'>1978</h1>
-    <input type='checkbox' onchange='pct_toggle()' checked>
-    <label>display countries <span id='pct-toggle-lbl'></span> in PCT</label>
-    <div id="pct-map" style="width: 900px; height: 500px;"></div>
-    <div id="pct-map-2" style="width: 900px; height: 500px;"></div>
-    <button onclick='remYear()'>prev year</button>
-    <button onclick='addYear()'>next year</button>
-    <table id="myTable" class="table table-borderless table-striped table-earning">
-        <thead>
-          <tr>
-            <th>code</th>
-            <th>name</th>
-            <th>join date</th>
-          </tr>
-        </thead>
-        <tbody id="here-be-data"></tbody>
-    </table>
+    <div id='pct-map-content'>
+        
+        <h1 id='year-indication'>1978</h1>
+        <div id="pct-map" style="width: 900px; height: 500px;"></div>
+        <div id="pct-map-2" style="width: 900px; height: 500px;"></div>
+        <div id='pct-control-panel'>
+            <button onclick='remYear()'>prev year</button>
+            <input id='year-input' placeholder="jump to year" input='number' min="1978" max="2020" onkeydown="search(this)">
+            <button onclick='yearJump()'>jump</button>
+            <button onclick='addYear()'>next year</button>
+            <input type='checkbox' onchange='pct_toggle()' checked>
+            <label>display countries <span id='pct-toggle-lbl'></span> in PCT</label>
+        </div>
+
+        <table id='pct-dates-table'>
+            <thead class='good-ol-pipers-red'>
+                <tr>
+                    <th id='code-col'>code</th>
+                    <th id='name-col'>name</th>
+                    <th id='date-col'>date bound by PCT</th>
+                </tr>
+            </thead>
+            <tbody id="here-be-data"></tbody>
+        </table>
+    </div>
 </body>
 </html>

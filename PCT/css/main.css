@@ -1,0 +1,45 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+#pct-map-content {
+    display: block;
+    margin: auto;
+    max-width: 900px;
+}
+#year-indication {
+    text-align: center;
+}
+#pct-map {
+    box-shadow: 0 2px 5px black;
+} 
+#pct-map-2 {
+    z-index: 1;
+    position: absolute;
+    top: 109px;
+}
+.inwisible {
+    display: none;
+}
+.wisible {
+    display: block;
+}
+#pct-control-panel {
+    padding: 20px;
+    /* background-color: aqua; */
+}
+#code-col {width: 100px;}
+#name-col {width: 400px;}
+#date-col {width: 200px;}
+#pct-dates-table {
+    border-collapse: collapse;
+    margin: auto;
+}
+tr:nth-child(even) {background: rgb(230, 230, 230)}
+tr { 
+    line-height: 2;
+    text-align: center;
+}
+.good-ol-pipers-red { 
+    background-color: rgb(206, 11, 16);
+    color: white;
+}
