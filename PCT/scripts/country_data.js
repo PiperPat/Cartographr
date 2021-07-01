@@ -71,6 +71,14 @@ const Malawi = {
     year: 1978
 };
 
+const Russia = {
+    code: "RU",
+    name: "Russian Federation",
+    joined: "29-Mar-78" ,
+    pct: 1,
+    year: 1978
+};
+
 const Senegal = {
     code: "SN",
     name: "Senegal",
@@ -151,6 +159,14 @@ const Denmark = {
     year: 1978
 };
 
+const greenland = {
+    code: "GL",
+    name: "Greenland (counts as Denmark)",
+    joined: "1-Dec-78",
+    pct: 1,
+    year: 1978
+}
+
 const Austria = {
     code: "AT",
     name: "Austria",
@@ -190,6 +206,14 @@ const Norway = {
     pct: 1,
     year: 1980
 };
+
+const svalbad = {
+    code: "SJ",
+    name: "Svalbard and Jan Mayen (counts as Norway)",
+    joined: "1-Jan-80",
+    pct: 1,
+    year: 1980
+}
 
 const Liechtenstein = {
     code: "LI",
@@ -919,6 +943,14 @@ const Seychelles = {
     year: 2002
 };
 
+const SVG = {
+    code: "VC",
+    name: "Saint Vincent and the Grenadines",
+    joined: " 6-Aug-02" ,
+    pct: 1,
+    year: 2002
+};
+
 const Nicaragua = {
     code: "NI",
     name: "Nicaragua",
@@ -1143,6 +1175,14 @@ const Brunei_Darussalam = {
     year: 2012
 };
 
+const Panama = {
+    code: "PA",
+    name: "Panama",
+    joined: "7-Sep-12" ,
+    pct: 1,
+    year: 2012
+};
+
 const Saudi_Arabia = {
     code: "SA",
     name: "Saudi Arabia",
@@ -1199,45 +1239,6 @@ const Samoa = {
     year: 2020
 };
 
-const SVG = {
-    code: "VC",
-    name: "Saint Vincent and the Grenadines",
-    joined: " 6-Aug-02" ,
-    pct: 1,
-    year: 2002
-};
-
-const Russia = {
-    code: "RU",
-    name: "Russian Federation",
-    joined: "29-Mar-78" ,
-    pct: 1,
-    year: 1978
-};
-
-const Panama = {
-    code: "PA",
-    name: "Panama",
-    joined: "7-Sep-12" ,
-    pct: 1,
-    year: 2012
-};
-
-const greenland = {
-    code: "GL",
-    name: "Greenland (counts as Denmark)",
-    joined: "1-Dec-78",
-    pct: 1,
-    year: 1978
-}
-
-const svalbad = {
-    code: "SJ",
-    name: "Svalbard and Jan Mayen (counts as Norway)",
-    joined: "1-Jan-80",
-    pct: 1,
-    year: 1980
-}
 
 // non-pct
 
@@ -1618,11 +1619,13 @@ const countires = [
     Togo,
     USA,
     France,
+    Russia,
     Brazil,
     Luxembourg,
     Sweden,
     Japan,
     Denmark,
+    greenland,
     Austria,
     Monaco,
     Netherlands,
@@ -1633,6 +1636,7 @@ const countires = [
     Hungary,
     North_Korea,
     Finland,
+    svalbad,
     Belgium,
     Sri_Lanka,
     Mauritania,
@@ -1718,6 +1722,7 @@ const countires = [
     Oman,
     Zambia,
     Tunisia,
+    SVG,
     Seychelles,
     Nicaragua,
     Papua_New_Guinea,
@@ -1747,6 +1752,7 @@ const countires = [
     Qatar,
     Rwanda,
     Brunei_Darussalam,
+    Panama,
     Saudi_Arabia,
     Iran,
     Kuwait,
@@ -1754,9 +1760,6 @@ const countires = [
     Cambodia,
     Jordan,
     Samoa,
-    SVG,
-    Russia,
-    Panama,
     Afghanistan,
     Andorra,
     Antarctica,
@@ -1801,7 +1804,5 @@ const countires = [
     Vanuatu,
     Venezuela,
     Western_Sahara,
-    Yemen,
-    greenland,
-    svalbad
+    Yemen
 ];
