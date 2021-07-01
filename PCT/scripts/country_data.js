@@ -161,7 +161,7 @@ const Denmark = {
 
 const greenland = {
     code: "GL",
-    name: "Greenland (counts as Denmark)",
+    name: "Greenland (covered by Denmark Patent but not EP(DK)).",
     joined: "1-Dec-78",
     pct: 1,
     year: 1978
@@ -209,7 +209,7 @@ const Norway = {
 
 const svalbad = {
     code: "SJ",
-    name: "Svalbard and Jan Mayen (counts as Norway)",
+    name: "Svalbard and Jan Mayen (counts as Norway).",
     joined: "1-Jan-80",
     pct: 1,
     year: 1980
@@ -737,7 +737,7 @@ const Zimbabwe = {
 
 const Sierra_Leone = {
     code: "SL",
-    name: "Sierra Leone",
+    name: "Sierra Leone<sup>1</sup>",
     joined: "17-Jun-97" ,
     pct: 1,
     year: 1997
@@ -785,7 +785,7 @@ const Croatia = {
 
 const Grenada = {
     code: "GD",
-    name: "Grenada",
+    name: "Grenada<sup>1</sup>",
     joined: "22-Sep-98" ,
     pct: 1,
     year: 1998
@@ -857,7 +857,7 @@ const Algeria = {
 
 const Antigua_Barbuda = {
     code: "AG",
-    name: "Antigua and Barbuda",
+    name: "Antigua and Barbuda <sup>1</sup>",
     joined: "17-Mar-00" ,
     pct: 1,
     year: 2000

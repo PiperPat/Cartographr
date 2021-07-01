@@ -18,5 +18,12 @@ function getCountries(up_to_year, dispPCT) {
             }
         });
     }
+
+    lcHtml = '';
+
+    if (all_data.includes(Antigua_Barbuda) ||all_data.includes(Sierra_Leone) || all_data.includes(Grenada)) {
+        lcHtml = lcHtml + '<br><sup>1</sup> PCT National Phase applications (as well as standard national applications) are held but not yet processed due to the current lack of relevant law and/or regulations.';
+    }
+    document.getElementById('footnotes').innerHTML = lcHtml;
     return [geochart_data, all_data];
 }
