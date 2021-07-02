@@ -1,6 +1,30 @@
 * {
     font-family: 'Nunito Sans', sans-serif;
 }
+header {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+#header-imgs > img {
+    padding: 20px;
+}
+#unicron {
+    max-width: 100px;
+    float: right;
+}
+#greymatter {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(135, 138, 132);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.centre-text { text-align: center;}
+#greymatter > ul > li { color: white; }
+#greymatter > ul > li > a { color: white; text-decoration: none;}
+
 #pct-map-content {
     display: block;
     margin: auto;
@@ -16,7 +40,7 @@
 #pct-map-2 {
     z-index: 1;
     position: absolute;
-    top: 86px;
+    top: 449px;
 }
 .geochart {
     width: 350px; 
