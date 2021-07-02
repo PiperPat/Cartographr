@@ -18,28 +18,43 @@
     position: absolute;
     top: 86px;
 }
+.geochart {
+    width: 350px; 
+    height: 200px;
+}
+
+
 .inwisible {
     display: none;
 }
 .wisible {
     display: block;
 }
+
 #pct-control-panel {
     padding: 20px;
 }
 #pct-year-nav {
     width: 100%;
     display: grid;
-    grid-template-columns: 100px 1fr 100px;
+    grid-template-columns: 50px 1fr 50px;
+    grid-row-gap: 5px;
 }
 #year-jump {
-    margin: auto;
+    padding-left: 10px;
+    grid-row: 2;
+    grid-column: 2;
+}
+#nek-butt {
+    grid-row: 1;
+    grid-column: 3;
 }
 #pct-toggle-container {
     width: 100%;
     margin: auto;
 }
 
+/* at width 620px, the toggle container starts to break */
 
 #code-col {width: 100px;}
 #name-col {width: 400px;}
@@ -62,8 +77,8 @@ tr {
     background-color: rgb(145, 145, 145);
     color: white;
     border: none;
-    padding-left: 10px;
-    padding-right: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
 }
 .btn:hover {
     cursor: pointer;
@@ -75,4 +90,68 @@ tr {
 .btn:disabled {
     background-color: rgb(207, 207, 207);
     cursor: auto;
+}
+
+
+@media only screen and (min-width: 450px) {
+    .geochart {
+        width: 400px; 
+        height: 325px;
+    }
+}
+@media only screen and (min-width: 550px) {
+    .geochart {
+        width: 500px; 
+        height: 350px;
+    }
+}
+@media only screen and (min-width: 650px) {
+    .geochart {
+        width: 600px; 
+        height: 375px;
+    }
+    #pct-year-nav {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100px 1fr 100px;
+    }
+    #year-jump {
+        margin: auto;
+        grid-row: 1;
+        grid-column: 2;
+    }
+    #nek-butt {
+        grid-row: 1;
+        grid-column: 3;
+    }
+    #pct-toggle-container {
+        width: 100%;
+        margin: auto;
+    }
+    .btn {
+        font-size: 16px;
+        background-color: rgb(145, 145, 145);
+        color: white;
+        border: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media only screen and (min-width: 750px) {
+    .geochart {
+        width: 700px; 
+        height: 400px;
+    }
+}
+@media only screen and (min-width: 850px) {
+    .geochart {
+        width: 800px; 
+        height: 450px;
+    }
+}
+@media only screen and (min-width: 950px) {
+    .geochart {
+        width: 900px; 
+        height: 500px;
+    }
 }
