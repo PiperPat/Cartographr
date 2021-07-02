@@ -1,14 +1,10 @@
-var animating = true;
 
 function slideshow() {
-    animating = ! animating;
-    let animation;
 
-    if (! animating) {
-        myVar = setInterval(addYear, 1000);
-    } else {
-        stopSlides();
-    }    
+    if (animating) stopSlides();
+    else myVar = setInterval(addYear, 1000);
+        
+    animating = ! animating; // init false, now true
 }
 
 function stopSlides() {

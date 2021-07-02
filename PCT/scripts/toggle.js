@@ -3,13 +3,17 @@
 let currentYear = 1978;
 
 var myVar; // this is used for animating -- se animate.js
+var animating = false; // ditto.
 
 let current_list = [];
 
 function addYear() {
     currentYear++;
     changeYear(currentYear);
-    if (currentYear == 2020) clearInterval(myVar);
+    if (currentYear == 2020) {
+        clearInterval(myVar);
+        animating = false;
+    }
 }
 function remYear() {
     currentYear = currentYear -1;
