@@ -98,11 +98,11 @@ Cyprus  = {
     madrid_agreement: "November 4, 2003",
     madrid_protocol: " November 4, 2003"
 };
-Czech Republic = {
+Czech_Republic = {
     madrid_agreement: "January 1, 1993",
     madrid_protocol: "September 25, 1996"
 };
-Democratic People's Republic of Korea  = {
+North_Korea  = {
     madrid_agreement: "June 10, 1980",
     madrid_protocol: "October 3, 1996"
 };

@@ -1151,9 +1151,9 @@ const Thailand = {
     year: 2009
 };
 
-const Qatar   = {
+const Qatar = {
     code: "QA",
-    name: "Qatar  ",
+    name: "Qatar",
     joined: "3-Aug-11" ,
     pct: 1,
     year: 2011
@@ -1389,17 +1389,17 @@ const Hong_kong = {
 const Iraq = {
     code: "IQ",
     name: 'Iraq',
-    joined: 'has not yet signed',
+    joined: '30-April-22',
     pct: 1,
-    year: 9999
+    year: 2022
 };
 
 const Jamaica = {
     code: "JM",
     name: 'Jamaica',
-    joined: 'has not yet signed',
+    joined: "10-Feb-22" ,
     pct: 1,
-    year: 9999
+    year: 2022
 };
 
 const Kiribati = {

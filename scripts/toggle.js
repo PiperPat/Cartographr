@@ -10,7 +10,7 @@ let current_list = [];
 function addYear() {
     currentYear++;
     changeYear(currentYear);
-    if (currentYear == 2020) {
+    if (currentYear == 2022) {
         clearInterval(myVar);
         animating = false;
     }
@@ -32,8 +32,8 @@ function changeYear(currentYear) {
         currentYear = 1978;
         document.getElementById('prv-butt').disabled = true;
     } else document.getElementById('prv-butt').disabled = false;
-    if (currentYear >= 2020) {
-        currentYear = 2020;
+    if (currentYear >= 2022) {
+        currentYear = 2022;
         document.getElementById('nek-butt').disabled = true;
     } else document.getElementById('nek-butt').disabled = false;
     
