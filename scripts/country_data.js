@@ -49,7 +49,7 @@ const Gabon = {
 
 const United_Kingdom = {
     code: "GB",
-    name: "United Kingdom",
+    name: "United Kingdom<sup>1</sup>",
     joined: "24-Jan-78" ,
     pct: 1,
     year: 1978
@@ -737,7 +737,7 @@ const Zimbabwe = {
 
 const Sierra_Leone = {
     code: "SL",
-    name: "Sierra Leone<sup>1</sup>",
+    name: "Sierra Leone<sup>2</sup>",
     joined: "17-Jun-97" ,
     pct: 1,
     year: 1997
@@ -785,7 +785,7 @@ const Croatia = {
 
 const Grenada = {
     code: "GD",
-    name: "Grenada<sup>1</sup>",
+    name: "Grenada<sup>2</sup>",
     joined: "22-Sep-98" ,
     pct: 1,
     year: 1998
@@ -857,7 +857,7 @@ const Algeria = {
 
 const Antigua_Barbuda = {
     code: "AG",
-    name: "Antigua and Barbuda <sup>1</sup>",
+    name: "Antigua and Barbuda <sup>2</sup>",
     joined: "17-Mar-00" ,
     pct: 1,
     year: 2000
@@ -1317,9 +1317,9 @@ const Burundi = {
 const Cabo = {
     code: "CV",
     name: 'Cabo Verde',
-    joined: 'has not yet signed',
+    joined: '6-Jul-22',
     pct: 1,
-    year: 9999
+    year: 2022
 };
 
 const DR_Congo = {
